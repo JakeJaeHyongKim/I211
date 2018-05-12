@@ -1,0 +1,9 @@
+mysql -h db.soic.indiana.edu -p -u i211s18_kim918 i211s18_kim918
+
+password: my+sql=i211s18_kim918
+
+SHOW tables;
+DESCRIBE Tablename;
+SELECT * FROM ...;
+INSERT INTO ... ('','','',...) VALUES ('','','',...);
+DROP ...;

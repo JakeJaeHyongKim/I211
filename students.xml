@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+
+<StudentList>
+	<Student>
+		<name>
+			<first>Katie</first>
+			<last>Smith</last>
+		</name>
+		<class>2011</class>
+		<credit>12</credit>
+		<id>001987283</id>
+		<fees units = "dollars" c = "usa">100</fees>
+	</Student>
+	<Student>
+		<name>
+			<first>Jack</first>
+			<last>Sparrow</last>
+		</name>
+		<class>2013</class>
+		<id>0019846768</id>
+		<credit>10</credit>
+		<fees units = "doubloons" c = "spain">200</fees>
+	</Student>
+	<Student>
+		<name>
+			<first>Jason</first>
+			<last>Bourne</last>
+		</name>
+		<class>2014</class>
+		<id>0019846789</id>
+		<credit>16</credit>
+		<fees units = "dollars" c = "usa">400</fees>
+	</Student>
+	<Student>
+		<name>
+			<first>Rose</first>
+			<last>Dawson</last>
+		</name>
+		<class>2013</class>
+		<id>0019845768</id>
+		<credit>9</credit>
+		<fees units = "dollars" c = "usa">300</fees>
+	</Student>
+</StudentList>

@@ -1,0 +1,22 @@
+CREATE TABLE Songs(
+    -> songID INT (11) NOT NULL auto_increment PRIMARY KEY,
+    -> Song varchar (50) NOT NULL,
+    -> Artist varchar (50),
+    -> Genre varchar (25),
+    -> Price decimal (10,2));
+
+CREATE TABLE MyTunes(
+    -> MyTuensID int (11) NOT NULL PRIMARY KEY auto_increment,
+    -> SongID int(11) NOT NULL);
+
+
+SELECT m.SongID, s.Song, s.Artist, s.Genre FROM MyTunes as m, Songs as s WHERE s.songID = m.SongID ORDER BY s.Artist;
+
+
+SELECT m.SongID, s.Song, s.Artist, s.Genre FROM MyTunes as m, Songs as s WHERE s.songID = m.SongID ORDER BY s.Genre;
+
+SELECT m.SongID, s.Song, s.Artist, s.Genre FROM MyTunes as m, Songs as s WHERE s.songID = m.SongID ORDER BY s.Song;
+
+INSERT INTO MyTunes (SongID) VALUES (sid));
+
+SELECT * FROM Songs;

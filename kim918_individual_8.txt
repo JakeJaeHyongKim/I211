@@ -1,0 +1,27 @@
+Jake Kim
+Group 10
+
+Answer the following questions about UNIX.
+
+ 
+
+1. How do you list all the files that are in the current directory?
+
+ type "ls –a"
+
+2. What is the command to rename a file called oldfile.txt to newfile.txt
+
+ mv oldfile.txt newfile.txt
+
+3. How would you change the current directory to a directory called HW_8 that is inside of a directory called Homework, which is inside of your home directory?
+
+type "cd/HW_8/Homework"
+
+4. What is the command to change the permissions on a file called my_work.txt to allow the file to be executable.
+
+chmod +x my_work.txt
+
+
+5. What is the command to search all files in your current directory for the word "success"?
+
+grep "success" *

@@ -1,0 +1,28 @@
+﻿Jake Kim
+Group 10
+
+CREATE TABLE Singer
+(
+SingerID int (11) UNIQUE,
+FirstName varchar (30),
+LastName varchar (30),
+Label varchar (30),
+Salary int (11),
+Style varchar (30)
+);
+
+CREATE TABLE Tour
+(
+TourID int (11) UNIQUE,
+TourName varchar (30),
+Begin date,
+End date,
+Headliner int (11)
+);
+
+INSERT INTO Singer (SingerID,FirstName,LastName,Label,Salary,Style)
+VALUES (1,'Jake','Kim','single','300000','R&B');
+
+SELECT FirstName,LastName
+FROM Singer
+WHERE Salary > '250000';

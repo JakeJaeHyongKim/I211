@@ -1,0 +1,10 @@
+CREATE TALBE IF NOT EXISTS Items (Name varchar (30));
+
+SELECT * FROM Items;
+
+CREATE TABLE IF NOT EXISTS Delivery( DeliveryID int (11) NOT NULL AUTO_INCREMENT PRIMARY KEY, Item varchar (50) NOT NULL, Cost int (11) DEFAULT 0, Method varchar (30), Shipping int (11) DEFAULT 10 );
+
+INSERT INTO Delivery (Item, Cost, Method, Shipping) VALUES ('item','10','method','10')
+
+SELECT * FROM Delivery;
+

@@ -1,0 +1,6 @@
+Bears 4
+Sharks 7
+Cats 9
+Hedgehogs 6
+Ants 2
+Aardvarks 11
